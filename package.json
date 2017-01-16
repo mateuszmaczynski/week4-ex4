@@ -1,0 +1,32 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Sample application created for TypeScript course on http://eduweb.pl/",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp && node ./dist/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduweb-pl/typescript-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduweb-pl/typescript-application/issues"
+  },
+  "homepage": "https://github.com/eduweb-pl/typescript-application#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "gulpclass": "^0.1.1"
+  }
+}
